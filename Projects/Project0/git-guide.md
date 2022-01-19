@@ -51,11 +51,27 @@
 ## git files & folders
 
 - .git folder
+  - The .git folder contains all of the information for the repository to function on the local machine
+  - This includes
+    - hooks
+    - objects
+    - config
+    - refs
+    - HEAD
+    - index
+  - this folder is hidden by default
 - .gitignore file
+  - .gitignore file holds a list of files you want ignored
+  - this is used so that files that you dont want tracked stop appearing in git status output
 - ~~.git/hooks~~
 
 ## GitHub
 
 - Pull requests
+  - pull requests allow you to tell others about changes you have made
+  - a forum is created where the changes can be discussed
 - SSH authentication to repositories
+  - this is the preferred way for connecting to github
+  - password authentcation was depricated for not being a secure way to connect to github
+  - to set this up the user needs to generate an ssh keypair on local and copy the public key to github
 - ~~Actions~~
