@@ -5,10 +5,9 @@
     - This API token needs to be put in a .env file
     - For this code to run, you need the Discord.py and the dotenv libraries
 - Usage
-    - `with your changes to the code in place, describe`
-    - `what commands you can type in your Discord server`
-    - `what response this will provide (from your bot)`
+    - I added the functionality to roll a d20
+    - "!rd20"
+    - The bot will respond with a random number between 1 and 20
 - Research
-    - `you may have realized that it is lame that it only runs when you run the program.`
-    - `In the real world, things are "always on", not waiting for Bob to turn his PC on and make sure the program is running.`
-    - `Research some possible solutions that would solve this, and discuss why you think it would work.`
+    - Cloud Hosting is a possible solution
+    - This would work because the bot needs a terminal and a computer to run the python code. Renting a computer on the cloud to always be on would allow the bot to be on 24/7.
