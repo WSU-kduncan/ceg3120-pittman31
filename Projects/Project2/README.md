@@ -13,11 +13,5 @@
    ![vpc screenshot](Images/RouteTable_Screenshot.PNG)
    - A routing table has ruled dictating where to direct your network traffic
 5. Create a security group
-   - Tag it with "YOURLASTNAME-sg"
-   - Allow SSH for a set of trusted networks including:
-     - Your home / where you usually connect to your instances from
-     - Wright State (addresses starting with 130.108)
-     - Instances within the VPC
-   - Attach it to your VPC
-   - Image should include your Inbound rules
-6. (If necessary, else skip) Create a key pair
+   ![vpc screenshot](Images/RouteTable_Screenshot.PNG)   
+   - A security group is a network layer firewall
