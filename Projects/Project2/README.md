@@ -1,10 +1,10 @@
 ## Part 1 - Build a VPC
 
 1. Create a VPC.
-   - ![vpc screenshot](Images/VPC_Screenshot.PNG)
-   - Specify a /24 private IP address range
+   ![vpc screenshot](Images/VPC_Screenshot.PNG)
+   - A VPC is a virtual network dedicated to your aws account
 2. Create a subnet
-   - Tag it with "YOURLASTNAME-Subnet"
+   ![vpc screenshot](Images/Subnet_Screenshot.PNG)
    - Specify a /28 private IP address range
    - Attach it to your VPC
 3. Create an internet gateway
