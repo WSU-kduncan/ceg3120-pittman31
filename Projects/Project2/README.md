@@ -10,10 +10,8 @@
    ![vpc screenshot](Images/Gateway_Screenshot.PNG)
    - An internet gateway is a computer that routes traffic from you private network to outside your network
 4. Create a route table
-   - Tag it with "YOURLASTNAME-routetable"
-   - Attach it to your VPC
-   - Associate it with your subnet
-   - Add a routing table rule that sends traffic to all destinations to your internet gateway
+   ![vpc screenshot](Images/RouteTable_Screenshot.PNG)
+   - A routing table has ruled dictating where to direct your network traffic
 5. Create a security group
    - Tag it with "YOURLASTNAME-sg"
    - Allow SSH for a set of trusted networks including:
