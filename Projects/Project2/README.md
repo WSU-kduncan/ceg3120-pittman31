@@ -1,7 +1,7 @@
 ## Part 1 - Build a VPC
 
 1. Create a VPC.
-   - Tag it with "YOURLASTNAME-VPC"
+   - ![vpc screenshot](Images/VPC_Screenshot.PNG)
    - Specify a /24 private IP address range
 2. Create a subnet
    - Tag it with "YOURLASTNAME-Subnet"
