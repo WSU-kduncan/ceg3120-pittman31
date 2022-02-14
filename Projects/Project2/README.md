@@ -27,9 +27,9 @@
 4. Attach a volume to your instance - Under the add storage in the lauch instance wizard I added a 16gb ssd volume.
 5. Tag your instance with a "Name" of "YOURLASTNAME-instance"- Under the Add Tags sections of the Launch Instance wizard, I added a tag with a key of "Name" and value of "PITTMAN-instance"
 6. Associate your security group, "YOURLASTNAME-sg" to your instance. - Under the Configure Security Group section of the Lauch Instance wizard I selected "PITTMAN-sg" from an existing security group
-7. Reserve an Elastic IP address. Tag it with "YOURLASTNAME-EIP". Associate the Elastic IP with your instance. Say how you did it.
-8. Create a screenshot your instance details and add it to your project write up. Example below:
-   ![sample instance details](sample.png)
+7. Reserve an Elastic IP address.- Under Elastic IPs, I allocated a public ip and then associated it with my PITTMAN-instance.
+8. Create a screenshot your instance details and add it to your project write up.
+   ![vpc screenshot](Images/InstanceDetails_Screenshot.PNG)
 9. `ssh` in to your instance. Change the hostname to "YOURLASTNAME-AMI" where AMI is some version of the AMI you chose. Say how you did it.
    1. It is wise to copy config files you are about to change to filename.old For `/etc/hostname`, for example, I would first copy the current `hostname` file to `/etc/hostname.old`
    2. You should not change permissions on any files you are modifying. They are system config files. You may need to access them with adminisrative privileges.
