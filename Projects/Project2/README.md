@@ -5,11 +5,10 @@
    - A VPC is a virtual network dedicated to your aws account
 2. Create a subnet
    ![vpc screenshot](Images/Subnet_Screenshot.PNG)
-   - Specify a /28 private IP address range
-   - Attach it to your VPC
+   - A subnet is a range of ip addresses in the vpc
 3. Create an internet gateway
-   - Tag it with "YOURLASTNAME-gw"
-   - Attach it to your VPC
+   ![vpc screenshot](Images/Gateway_Screenshot.PNG)
+   - An internet gateway is a computer that routes traffic from you private network to outside your network
 4. Create a route table
    - Tag it with "YOURLASTNAME-routetable"
    - Attach it to your VPC
