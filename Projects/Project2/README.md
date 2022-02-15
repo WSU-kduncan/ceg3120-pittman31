@@ -31,7 +31,6 @@
 8. Create a screenshot your instance details and add it to your project write up.
    ![vpc screenshot](Images/InstanceDetails_Screenshot.PNG)
 9. `ssh` in to your instance. Change the hostname to "YOURLASTNAME-AMI" where AMI is some version of the AMI you chose. Say how you did it.
-   1. It is wise to copy config files you are about to change to filename.old For `/etc/hostname`, for example, I would first copy the current `hostname` file to `/etc/hostname.old`
-   2. You should not change permissions on any files you are modifying. They are system config files. You may need to access them with adminisrative privileges.
-   3. Here is a helpful resource: https://www.tecmint.com/set-hostname-permanently-in-linux/ I did not modify `/etc/hosts` on mine - do so or not as you wish.
-10. Create a screenshot your ssh connection to your instance and add it to your project write up - make sure it shows your new hostname.
+   - I changed my hostname with the following command `sudo hostname PITTMAN_AMI`
+10. Create a screenshot your ssh connection to your instance and add it to your project write up - make sure it shows your new hostname
+![vpc screenshot](Images/SSH_Screenshot.PNG)
