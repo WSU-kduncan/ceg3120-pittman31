@@ -221,7 +221,7 @@ Resources:
             apt-get update && \
             apt-get install -y apache2 && \
             apt-get install -y git && \
-            hostnamectl set-hostname webserv1  && \
+            hostnamectl set-hostname webserv1 && \
             reboot
 # TODO: create another webserver instance attached to the private subnet
   WebServ2Instance:
@@ -257,5 +257,5 @@ Resources:
             apt-get update && \
             apt-get install -y apache2 && \
             apt-get install -y git && \
-            hostnamectl set-hostname webserv2  && \
+            hostnamectl set-hostname webserv2 && \
             reboot
