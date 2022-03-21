@@ -27,7 +27,7 @@ Setup the following and add documentation or screenshots to your `README.md` fil
      - What configuration(s) were set (if any)  
         >frontend 52.45.158.220  
         >&nbsp;&nbsp;&nbsp;&nbsp;bind 10.0.0.10:80  
-        >&nbsp;&nbsp;&nbsp;&nbsp;default_backend web_servers
+        >&nbsp;&nbsp;&nbsp;&nbsp;default_backend web_servers  
         >backend web_servers  
         >&nbsp;&nbsp;&nbsp;&nbsp;balance roundrobin  
         >&nbsp;&nbsp;&nbsp;&nbsp;default-server check maxconn 20  
